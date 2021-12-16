@@ -1,0 +1,9 @@
+<!-- curly brackets/curly bracket percent sign if you see those in a flask template - that is jinja code jinja is a templating agent used with flask -->
+
+<h1>Hello, Foxes.</h1>
+<h5>
+    Sam's favorite soccer players:
+</h5>
+{% for p in players %}
+    <h5>{{p}}</h5>
+{% endfor %}
